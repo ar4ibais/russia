@@ -1,0 +1,22 @@
+.page {
+    background-color: #2A2C2F;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Inter', serif;
+}
+
+.container-lg {
+    max-width: 1210px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-sm {
+    max-width: 1010px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+}

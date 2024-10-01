@@ -1,0 +1,24 @@
+.header {
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header__lang {
+    display: flex;
+    gap: 15px;
+}
+
+.header__lang-item {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header__lang-item.active {
+    text-decoration: underline;
+}
