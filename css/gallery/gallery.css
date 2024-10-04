@@ -1,0 +1,13 @@
+.gallery {
+    margin-bottom: 90px;
+}
+
+.gallery__inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.gallery__inner img {
+    width: 100%;
+}
