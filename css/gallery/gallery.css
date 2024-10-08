@@ -11,3 +11,24 @@
 .gallery__inner img {
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+    .gallery__inner {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery__inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 450px) {
+    .gallery {
+        margin-bottom: 65px;
+    }
+    .gallery__inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

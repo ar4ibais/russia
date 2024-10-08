@@ -21,3 +21,14 @@
     font-size: 14px;
     line-height: 16px;
 }
+
+@media (max-width: 450px) {
+    .footer__inner {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer__list {
+        flex-direction: column;
+        gap: 18px;
+    }
+}

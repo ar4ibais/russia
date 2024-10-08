@@ -49,3 +49,32 @@
     font-size: 18px;
     line-height: 163%;
 }
+
+@media (max-width: 768px) {
+    .spaces__item-title {
+        flex-basis: 385px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .spaces__item-bottom img {
+        max-width: 340px;
+        max-height: 340px;
+    }
+}
+
+@media (max-width: 768px) {
+    .spaces__item-top,
+    .spaces__item-bottom {
+        display: block;
+    }
+
+    .spaces__item + .spaces__item {
+        margin-top: 50px;
+    }
+    .spaces__item-title {
+        margin-bottom: 40px;
+    }
+    .spaces__item-text {
+        margin-top: 30px;
+    }
+}
